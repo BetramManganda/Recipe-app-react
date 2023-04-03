@@ -9,7 +9,9 @@ export default function Main() {
     <div className="main">
       <Search_section />
       <Hero />
-      <Recipe_section />
+      <div className="recipe_container">
+        <Recipe_section />
+      </div>
     </div>
   );
 }
